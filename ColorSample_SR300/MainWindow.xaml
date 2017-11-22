@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ColorSample_SR300"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow"
+        Loaded="Window_Loaded"
+        Unloaded="Window_Unloaded" Width="640" Height="640">
+    <Grid x:Name="grid">
+        <Image x:Name="imageColor" VerticalAlignment="Top" Width="640" Height="480"/>
     </Grid>
 </Window>
